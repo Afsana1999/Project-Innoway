@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="col-12">
         <div class="logo">INNOWAY</div>
-        <div class="navigasyon">
+        <div class="navigation">
           <ul>
             <li>Haqqimizda</li>
             <li>Tədris istiqamətləri</li>
@@ -19,7 +25,9 @@
             <li>Əlaqə</li>
           </ul>
         </div>
-        <div class="btn-nav"><button style="padding-left: 10px; padding-right: 10px; background-color: #5ECDF2; color: white; border-radius: 5px; border: none;">Müraciət Et</button></div>
+        <div class="btn-nav">
+          <button>Müraciət Et</button>
+        </div>
       </nav>
       <div class="header-wrapper">
         <div class="header-title">
@@ -32,103 +40,132 @@
               müəllifi özünüz olun.
             </p>
           </div>
-          <div class="btn-group"> <button class="btn-one">Müraciət et</button>
-            <button class="btn-second">İstiqamətlərimiz</button></div>
-
+          <div class="btn-group">
+            <button class="btn-one">Müraciət et</button>
+            <button class="btn-second">İstiqamətlərimiz</button>
+          </div>
         </div>
         <div class="header-image">
-          <div class="left-img">  <img src="https://innoway.az/assets/images/Others/53e6406b-b8c7-4a4f-ad83-1d21109a8fff.webp" alt="" />
-            <video src=""></video></div>
-        
+          <div class="left-img">
+            <img
+              src="https://innoway.az/assets/images/Others/53e6406b-b8c7-4a4f-ad83-1d21109a8fff.webp"
+              alt=""
+            />
+            <video src=""></video>
+          </div>
         </div>
       </div>
     </header>
     <main>
+      <!-- about section start -->
       <section class="about-one">
-        <div class="content-div">
-          <p>indi elaqe saxla</p>
-          <p> +994 51 774 76 16</p>
-        </div>
-        <div class="about-one-img">
-          <img src="https://innoway.az/assets/images/Others/591a7a76-b028-43e7-b375-4d9bb3a227ab.webp" alt="" />
-        </div>
-        <div class="about-one-content">
-          <div class="section-title">
-            <h5>Haqqımızda</h5>
-            <h2>
-              INNOWAY - elektronika və kompüter elmlərinin (Hardware, Software)
-              birləşdiyi məkandır.
-            </h2>
-          </div>
-          <p>
-            Tədris prosesini ən müasir təlim proqramı üzrə həyata keçirən, tam
-            təchizatlı laboratoriyalara sahib təlim mərkəzi – INNOWAY sizi
-            salamlayır.
-          </p>
-          <div class="about-one-box-wrapper">
-            <div class="about-one-box-icon">
-              <i></i>
+        <div class="container flex col-8">
+          <div class="content-div col-6">
+            <div class="about-one-img">
+              <img
+                src="https://innoway.az/assets/images/Others/591a7a76-b028-43e7-b375-4d9bb3a227ab.webp"
+                alt=""
+              />
             </div>
+          </div>
+          <div class="about-one-content col-6">
+            <div class="section-title">
+              <h5>Haqqımızda</h5>
+              <h2>
+                INNOWAY - elektronika və kompüter elmlərinin (Hardware,
+                Software) birləşdiyi məkandır.
+              </h2>
+            </div>
+            <p>
+              Tədris prosesini ən müasir təlim proqramı üzrə həyata keçirən, tam
+              təchizatlı laboratoriyalara sahib təlim mərkəzi – INNOWAY sizi
+              salamlayır.
+            </p>
+            <div class="about-one-box-wrapper">
+              <div class="about-one-box-icon">
+                <i></i>
+              </div>
 
-            <h4>Müəllimlər</h4>
-            <p>
-              INNOWAY – də tədris prosesi təcrübəsi kadrların rəhbərliyi altında
-              təşkil olunur.
-            </p>
+              <h4>Müəllimlər</h4>
+              <p>
+                INNOWAY – də tədris prosesi təcrübəsi kadrların rəhbərliyi
+                altında təşkil olunur.
+              </p>
+            </div>
+            <div class="about-one-box-wrapper">
+              <div class="about-one-box-icon"><i></i></div>
+              <h4>Laboratoriya</h4>
+              <p>
+                Müasir elektronika qurğuları ilə təchiz olunmuş elektronika
+                laboratoriyası və proqramlaşdırma üçün ideal dərs mühiti.
+              </p>
+            </div>
+            <div class="about-one-box-wrapper">
+              <div class="about-one-box-icon"><i></i></div>
+              <h4>Güncəl tədris proqramı</h4>
+              <p>Dövrün tələblərinə cavab verən tədris proqramı.</p>
+            </div>
+            <button>Daha cox <i></i></button>
           </div>
-          <div class="about-one-box-wrapper">
-            <div class="about-one-box-icon"><i></i></div>
-            <h4>Laboratoriya</h4>
-            <p>
-              Müasir elektronika qurğuları ilə təchiz olunmuş elektronika
-              laboratoriyası və proqramlaşdırma üçün ideal dərs mühiti.
-            </p>
-          </div>
-          <div class="about-one-box-wrapper">
-            <div class="about-one-box-icon"><i></i></div>
-            <h4>Güncəl tədris proqramı</h4>
-            <p>Dövrün tələblərinə cavab verən tədris proqramı.</p>
-          </div>
-          <button>Daha cox <i></i></button>
         </div>
       </section>
+      <!-- about section end -->
+
+      <!-- category section start -->
       <section class="category-one">
-        <div class="container">
+        <div class="container col-8">
           <div class="section-title">
             <h3>Kateqoriyalar</h3>
             <h2>Öyrənmək üçün ən sevilən mövzular</h2>
           </div>
-          <div class="category-one-slider">
-            <div class="card">
-              <img src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp" alt="" />
+          <div class="category-one-slider flex">
+            <div class="card col-4">
+              <img
+                src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp"
+                alt=""
+              />
               <p>Backend proqramlaşdırma</p>
             </div>
-            <div class="card">
-              <img src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp" alt="" />
+            <div class="card col-4">
+              <img
+                src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp"
+                alt=""
+              />
               <p>Elektronika mühəndisliyi</p>
             </div>
-            <div class="card">
-              <img src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp" alt="" />
+            <div class="card col-4">
+              <img
+                src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp"
+                alt=""
+              />
               <p>STM32 proqramlaşdırma</p>
             </div>
-            <div class="card">
-              <img src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp" alt="" />
+            <div class="card col-4">
+              <img
+                src="https://innoway.az/assets/images/Categories/back-end-proqramlashdirma-k.webp"
+                alt=""
+              />
               <p>Frontend proqramlaşdırma</p>
             </div>
           </div>
-          <div class="line-wrapper"></div>
         </div>
       </section>
+      <!-- category section end  -->
+
+      <!-- course section start -->
       <section class="course-one">
-        <div class="container">
+        <div class="container col-8">
           <div class="section-title">
             <h5>Kurslarımız</h5>
           </div>
           <div class="row">
-            <div class="row-wrapper">
+            <div class="row-wrapper col-3">
               <div class="course-one-item">
                 <div class="course-one-thump">
-                  <img src="https://innoway.az/assets/images/Courses/arduino.webp" alt="" />
+                  <img
+                    src="https://innoway.az/assets/images/Courses/arduino.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="course-one-content">
                   <div class="course-one-time">144saat</div>
@@ -139,19 +176,25 @@
                 </div>
                 <div class="course-one-author">
                   <div class="course-one-author-img">
-                    <img src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp" alt="" />
+                    <img
+                      src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"
+                      alt=""
+                    />
                   </div>
                   <div class="course-one-author-about">
-                  <h5>Nizami Kəlbəliyev</h5>
-                  <p>SOFTWARE ENGINEER (ARDUINO)</p>
-                </div>
+                    <h5>Nizami Kəlbəliyev</h5>
+                    <p>SOFTWARE ENGINEER (ARDUINO)</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="row-wrapper">
+            <div class="row-wrapper col-3">
               <div class="course-one-item">
                 <div class="course-one-thump">
-                  <img src="https://innoway.az/assets/images/Courses/arduino.webp" alt="">
+                  <img
+                    src="https://innoway.az/assets/images/Courses/arduino.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="course-one-time">200saat</div>
                 <div class="course-one-content-meta">
@@ -160,27 +203,37 @@
                 <h3>Backend programlasdirma</h3>
                 <div class="course-one-author">
                   <div class="course-one-author-img">
-                    <img src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp" alt="">
+                    <img
+                      src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"
+                      alt=""
+                    />
                   </div>
                   <div class="course-one-author-about">
-                  <h5>Kamran Cebiyev</h5>
-                  <p>Fullstack Web developer</p></div>
+                    <h5>Kamran Cebiyev</h5>
+                    <p>Fullstack Web developer</p>
+                  </div>
                 </div>
                 <div class="course-one-author">
                   <div class="course-one-author-img">
-                    <img src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp" alt="">
+                    <img
+                      src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"
+                      alt=""
+                    />
                   </div>
                   <div class="course-one-author-about">
-                  <h5>Ehed Tagiyev</h5>
-                  <p>Backend Web developer</p></div>
+                    <h5>Ehed Tagiyev</h5>
+                    <p>Backend Web developer</p>
+                  </div>
                 </div>
               </div>
-             
             </div>
-            <div class="row-wrapper">
+            <div class="row-wrapper col-3">
               <div class="course-one-item">
                 <div class="course-one-thump">
-                  <img src="https://innoway.az/assets/images/Courses/arduino.webp" alt="" />
+                  <img
+                    src="https://innoway.az/assets/images/Courses/arduino.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="course-one-content">
                   <div class="course-one-time">200saat</div>
@@ -191,60 +244,88 @@
                 </div>
                 <div class="course-one-author">
                   <div class="course-one-author-img">
-                    <img src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp" alt="" />
+                    <img
+                      src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"
+                      alt=""
+                    />
                   </div>
                   <div class="course-one-author-about">
-                  <h5>Rail Cennetov</h5>
-                  <p>Frontend developer</p>
-                </div>
+                    <h5>Rail Cennetov</h5>
+                    <p>Frontend developer</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row-btn">
+          <div class="row-btn col-12">
             <button>Daha cox <i></i></button>
-          </div>
           </div>
         </div>
       </section>
+      <!-- course section end -->
+
+      <!-- testimonial section start -->
       <section class="testimonial-test">
         <div class="testimonial-test-wrapper container">
           <div class="testimonial-test-wrapper-item col-8">
             <i></i>
-            <p class="col-8">2021-dən elektronikaya öyrənməyə başladım və uzun müddət peşəkar elektronika müəllimi axtardım. Mənə Namiq müəllimi və "Innoway" kursunu məsləhət gördülər. Kursa qatıldıqdan sonra gözlədiyimdən də yüksək səviyyə ilə qarşılaşdım. Azərbaycanda son illərdə elektronika üzrə təlim kursları artsa da, "Innoway"ın digər kurslardan üstün cəhətləri çoxdur. Peşəkar müəllimlər, səmimi kollektiv, real təcrübələr, dərslərin keçirilmə metodikası, professional yanaşma və limitsiz dəstək ilə "Innoway" mükəmməl tədris təqdim edir. Doğru yerdə olduğumu hiss edirəm və başda Namiq müəllim olmaqla "Innoway" ailəsinə təşəkkür edirəm.</p>
-          </div>
-          <div class="testimonial-test-user">
-            <div class="testimonial-test-user-img">
-              <img src="https://innoway.az/assets/images/Testimonials/rustemov-aqshin.webp" alt="">
+            <p class="col-8">
+              2021-dən elektronikaya öyrənməyə başladım və uzun müddət peşəkar
+              elektronika müəllimi axtardım. Mənə Namiq müəllimi və "Innoway"
+              kursunu məsləhət gördülər. Kursa qatıldıqdan sonra gözlədiyimdən
+              də yüksək səviyyə ilə qarşılaşdım. Azərbaycanda son illərdə
+              elektronika üzrə təlim kursları artsa da, "Innoway"ın digər
+              kurslardan üstün cəhətləri çoxdur. Peşəkar müəllimlər, səmimi
+              kollektiv, real təcrübələr, dərslərin keçirilmə metodikası,
+              professional yanaşma və limitsiz dəstək ilə "Innoway" mükəmməl
+              tədris təqdim edir. Doğru yerdə olduğumu hiss edirəm və başda
+              Namiq müəllim olmaqla "Innoway" ailəsinə təşəkkür edirəm.
+            </p>
+            <div class="testimonial-test-user">
+              <div class="testimonial-test-user-img">
+                <img
+                  src="https://innoway.az/assets/images/Testimonials/rustemov-aqshin.webp"
+                  alt=""
+                />
+              </div>
+              <div class="testimonial-test-user-item">
+                <h5>Rustemov Aqsin</h5>
+                <p>Elenktronika muhendisi</p>
+              </div>
             </div>
-            <div class="testimonial-test-user-item">
-            <h5>Rustemov Aqsin</h5>
-            <p>Elenktronika muhendisi</p></div>
-          </div>
-          <div class="testimonial-test-icon">
-            <i></i>
           </div>
         </div>
       </section>
+      <!-- testimonial section end -->
+
+      <!-- teachers section start -->
       <section class="teachers-about">
-        <div class="teachers-about-one">
+        <div class="container teachers-about-one">
           <div class="teachers-about-title">
             <h5>Muellimlerimiz</h5>
             <h4>Peşəkar komanda üzvlərimizlə tanış olun</h4>
           </div>
           <div class="teachers-about-one-img">
-            <div class="teachers-about-one-img-wrapper">
-              <img src="https://innoway.az/assets/images/Teachers/kamran-cebiyev.webp" alt="">
+            <div class="teachers-about-one-img-wrapper col-3">
+              <img
+                src="https://innoway.az/assets/images/Teachers/kamran-cebiyev.webp"
+                alt=""
+              />
               <div class="hover-img">
-                <div class="hover-text">
-                  Kamran Cebiyev
-                </div>
+                <div class="hover-text">Kamran Cebiyev</div>
               </div>
             </div>
-            <div class="teachers-about-one-img-wrapper">
-              <img src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"  class="image">
-            </div> <div class="teachers-about-one-img-wrapper">
-              <img src="https://innoway.az/assets/images/Teachers/nizam-qehremanov.webp" alt="">
+            <div class="teachers-about-one-img-wrapper col-3">
+              <img
+                src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"
+                class="image"
+              />
+            </div>
+            <div class="teachers-about-one-img-wrapper col-3">
+              <img
+                src="https://innoway.az/assets/images/Teachers/nizam-qehremanov.webp"
+                alt=""
+              />
             </div>
           </div>
           <div class="teachers-about-icon">
@@ -254,128 +335,159 @@
           </div>
         </div>
       </section>
+      <!-- teachers section end -->
+
+      <!-- blog section start -->
       <section class="blog-one">
         <div class="container">
           <div class="blog-one-title">
             <h5>En son bloqlar</h5>
             <h2>Oxuyun, inkisaf edin</h2>
           </div>
-          <div class="row">
-            <div class="row-wrapper-xl">
-              <div class="blog-one-author ">
+          <div class="div">
+            <div class="row-wrapper-xl col-8">
+              <div class="blog-one-author">
                 <div class="blog-one-author-img">
-                  <img src="https://innoway.az/assets/images/Blogs/ec5bb923-966c-4bdd-aa84-41c218e95df5.webp" alt="">
+                  <img
+                    src="https://innoway.az/assets/images/Blogs/ec5bb923-966c-4bdd-aa84-41c218e95df5.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="blog-one-author-content">
                   <p>Frontend</p>
                   <h5>React Single Page Application (SPA) Routing</h5>
                   <div class="blog-one-author-content-item">
                     <div class="blog-one-author-content-img">
-                      <img src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp" alt="">
+                      <img
+                        src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp"
+                        alt=""
+                      />
                     </div>
                     <div>
-                    <h5>Ehed tagiyev</h5>
-                    <p>web developer</p>
+                      <h5>Ehed tagiyev</h5>
+                      <p>web developer</p>
+                    </div>
+                    <div class="blog-one-author-content-date">
+                      <p>5 iyun</p>
+                    </div>
                   </div>
-                  <div class="blog-one-author-content-date">
-                    <p>5 iyun</p>
-                  </div>
-                  </div>
-                 
                 </div>
               </div>
-              <div class="blog-one-author ">
+              <div class="blog-one-author">
                 <div class="blog-one-author-img">
-                  <img src="https://innoway.az/assets/images/Blogs/4cb793f2-95e3-4589-8702-25e84f1766c1.webp" alt="">
+                  <img
+                    src="https://innoway.az/assets/images/Blogs/4cb793f2-95e3-4589-8702-25e84f1766c1.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="blog-one-author-content">
                   <p>Frontend</p>
                   <h5>React Single Page Application (SPA) Routing</h5>
                   <div class="blog-one-author-content-item">
                     <div class="blog-one-author-content-img">
-                      <img src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp" alt="">
+                      <img
+                        src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp"
+                        alt=""
+                      />
                     </div>
                     <div>
-                    <h5>Ehed tagiyev</h5>
-                    <p>web developer</p>
+                      <h5>Ehed tagiyev</h5>
+                      <p>web developer</p>
+                    </div>
+                    <div class="blog-one-author-content-date">
+                      <p>5 iyun</p>
+                    </div>
                   </div>
-                  <div class="blog-one-author-content-date">
-                    <p>5 iyun</p>
-                  </div>
-                  </div>
-                 
                 </div>
               </div>
-              <div class="blog-one-author ">
+              <div class="blog-one-author">
                 <div class="blog-one-author-img">
-                  <img src="https://innoway.az/assets/images/Blogs/6714e7cd-ba75-40ac-b8f6-d758382fb066.webp" alt="">
+                  <img
+                    src="https://innoway.az/assets/images/Blogs/6714e7cd-ba75-40ac-b8f6-d758382fb066.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="blog-one-author-content">
                   <p>Frontend</p>
                   <h5>React Single Page Application (SPA) Routing</h5>
                   <div class="blog-one-author-content-item">
                     <div class="blog-one-author-content-img">
-                      <img src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp" alt="">
+                      <img
+                        src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp"
+                        alt=""
+                      />
                     </div>
                     <div>
-                    <h5>Ehed tagiyev</h5>
-                    <p>web developer</p>
+                      <h5>Ehed tagiyev</h5>
+                      <p>web developer</p>
+                    </div>
+                    <div class="blog-one-author-content-date">
+                      <p>5 iyun</p>
+                    </div>
                   </div>
-                  <div class="blog-one-author-content-date">
-                    <p>5 iyun</p>
-                  </div>
-                  </div>
-                 
                 </div>
               </div>
-              <div class="blog-one-author ">
+              <div class="blog-one-author">
                 <div class="blog-one-author-img">
-                  <img src="https://innoway.az/assets/images/Blogs/6714e7cd-ba75-40ac-b8f6-d758382fb066.webp" alt="">
+                  <img
+                    src="https://innoway.az/assets/images/Blogs/6714e7cd-ba75-40ac-b8f6-d758382fb066.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="blog-one-author-content">
                   <p>Frontend</p>
                   <h5>React Single Page Application (SPA) Routing</h5>
                   <div class="blog-one-author-content-item">
                     <div class="blog-one-author-content-img">
-                      <img src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp" alt="">
+                      <img
+                        src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp"
+                        alt=""
+                      />
                     </div>
                     <div>
-                    <h5>Ehed tagiyev</h5>
-                    <p>web developer</p>
+                      <h5>Ehed tagiyev</h5>
+                      <p>web developer</p>
+                    </div>
+                    <div class="blog-one-author-content-date">
+                      <p>5 iyun</p>
+                    </div>
                   </div>
-                  <div class="blog-one-author-content-date">
-                    <p>5 iyun</p>
-                  </div>
-                  </div>
-                 
                 </div>
               </div>
-              <div class="blog-one-author ">
+              <div class="blog-one-author">
                 <div class="blog-one-author-img">
-                  <img src="https://innoway.az/assets/images/Blogs/6714e7cd-ba75-40ac-b8f6-d758382fb066.webp" alt="">
+                  <img
+                    src="https://innoway.az/assets/images/Blogs/6714e7cd-ba75-40ac-b8f6-d758382fb066.webp"
+                    alt=""
+                  />
                 </div>
                 <div class="blog-one-author-content">
                   <p>Frontend</p>
                   <h5>React Single Page Application (SPA) Routing</h5>
                   <div class="blog-one-author-content-item">
                     <div class="blog-one-author-content-img">
-                      <img src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp" alt="">
+                      <img
+                        src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp"
+                        alt=""
+                      />
                     </div>
                     <div>
-                    <h5>Ehed tagiyev</h5>
-                    <p>web developer</p>
+                      <h5>Ehed tagiyev</h5>
+                      <p>web developer</p>
+                    </div>
+                    <div class="blog-one-author-content-date">
+                      <p>5 iyun</p>
+                    </div>
                   </div>
-                  <div class="blog-one-author-content-date">
-                    <p>5 iyun</p>
-                  </div>
-                  </div>
-                 
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- blog section end -->
+
+      <!-- partnyors section start -->
       <section class="partnyors">
         <div class="container">
           <div class="section-title">
@@ -384,33 +496,45 @@
           </div>
           <div class="partnyors-person">
             <div class="partnyors-person-img">
-              <img src="https://innoway.az/assets/images/Partners/embeddedaz.webp" alt="">
+              <img
+                src="https://innoway.az/assets/images/Partners/embeddedaz.webp"
+                alt=""
+              />
             </div>
             <div class="partnyors-person-img">
-              <img src="https://innoway.az/assets/images/Partners/makerstore.webp" alt="">
+              <img
+                src="https://innoway.az/assets/images/Partners/makerstore.webp"
+                alt=""
+              />
             </div>
             <div class="partnyors-person-img">
-              <img src="https://innoway.az/assets/images/Partners/itechno.webp" alt="">
+              <img
+                src="https://innoway.az/assets/images/Partners/itechno.webp"
+                alt=""
+              />
             </div>
             <div class="partnyors-person-img">
-              <img src="https://innoway.az/assets/images/Partners/rb-group.webp" alt="">
+              <img
+                src="https://innoway.az/assets/images/Partners/rb-group.webp"
+                alt=""
+              />
             </div>
           </div>
         </div>
-      </section>   
+      </section>
+      <!-- partnyors section end  -->
     </main>
     <footer>
-      <div class="footer">
-      <div class="footer-text"> @copygrth 2024 innoway</div>
-      <div class="footer-icons">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-
-      </div>
-    </div>
+      <span class="footer flex">
+        <p class="footer-text">@copygrth 2024 innoway</p>
+        <div class="footer-icons">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </span>
     </footer>
   </body>
 </html>
